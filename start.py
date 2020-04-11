@@ -1,4 +1,3 @@
-print("Hello world!")
 print("Hello world")
 import math
 a = 2.5
@@ -32,8 +31,8 @@ def task_b(a,b,x_lst):
     return res
 
 if __name__ == "__main__":
-    a = 0.8
-    b = 0.4
+    a = 2.5
+    b = 4.6
 
     res  = task_a(a,b,1.1,3.6,0.5)
     print_result(res)
